@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B4C2D9B07627B65AE5DDEE /* Pods_VipcSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55401E0114CED6B0117EEF11 /* Pods_VipcSwift.framework */; };
+		478C14F721080E240022F118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C14F621080E240022F118 /* AppDelegate.swift */; };
+		478C14F921080E240022F118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C14F821080E240022F118 /* ViewController.swift */; };
+		478C14FE21080E240022F118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478C14FD21080E240022F118 /* Assets.xcassets */; };
+		478C150121080E240022F118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478C14FF21080E240022F118 /* LaunchScreen.storyboard */; };
+		478C150C21080E240022F118 /* VipcSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C150B21080E240022F118 /* VipcSwiftTests.swift */; };
+		478C151721080E250022F118 /* VipcSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C151621080E250022F118 /* VipcSwiftUITests.swift */; };
+		478C1525210819140022F118 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C1524210819140022F118 /* MainVC.swift */; };
+		478C152721081D300022F118 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C152621081D300022F118 /* Const.swift */; };
+		478C152921086C5E0022F118 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478C152821086C5E0022F118 /* NewsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478C150821080E240022F118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478C14EB21080E240022F118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478C14F221080E240022F118;
+			remoteInfo = VipcSwift;
+		};
+		478C151321080E250022F118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478C14EB21080E240022F118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478C14F221080E240022F118;
+			remoteInfo = VipcSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		478C14F321080E240022F118 /* VipcSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipcSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C14F621080E240022F118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478C14F821080E240022F118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478C14FD21080E240022F118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478C150021080E240022F118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478C150221080E240022F118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C150721080E240022F118 /* VipcSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipcSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C150B21080E240022F118 /* VipcSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipcSwiftTests.swift; sourceTree = "<group>"; };
+		478C150D21080E250022F118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C151221080E250022F118 /* VipcSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipcSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478C151621080E250022F118 /* VipcSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipcSwiftUITests.swift; sourceTree = "<group>"; };
+		478C151821080E250022F118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C1524210819140022F118 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		478C152621081D300022F118 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		478C152821086C5E0022F118 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		55401E0114CED6B0117EEF11 /* Pods_VipcSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipcSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCB4F49147CAFC01C8204E1 /* Pods-VipcSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipcSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipcSwift/Pods-VipcSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FFC38094432C0C575C9AE54A /* Pods-VipcSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipcSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-VipcSwift/Pods-VipcSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478C14F021080E240022F118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B4C2D9B07627B65AE5DDEE /* Pods_VipcSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C150421080E240022F118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C150F21080E250022F118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C41F36B160D635D02FD9711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55401E0114CED6B0117EEF11 /* Pods_VipcSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478C14EA21080E240022F118 = {
+			isa = PBXGroup;
+			children = (
+				478C14F521080E240022F118 /* VipcSwift */,
+				478C150A21080E240022F118 /* VipcSwiftTests */,
+				478C151521080E250022F118 /* VipcSwiftUITests */,
+				478C14F421080E240022F118 /* Products */,
+				7FAE1D90C9ED7F5DAF8F325F /* Pods */,
+				3C41F36B160D635D02FD9711 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		478C14F421080E240022F118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478C14F321080E240022F118 /* VipcSwift.app */,
+				478C150721080E240022F118 /* VipcSwiftTests.xctest */,
+				478C151221080E250022F118 /* VipcSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478C14F521080E240022F118 /* VipcSwift */ = {
+			isa = PBXGroup;
+			children = (
+				478C14F621080E240022F118 /* AppDelegate.swift */,
+				478C14F821080E240022F118 /* ViewController.swift */,
+				478C14FD21080E240022F118 /* Assets.xcassets */,
+				478C14FF21080E240022F118 /* LaunchScreen.storyboard */,
+				478C150221080E240022F118 /* Info.plist */,
+				478C1524210819140022F118 /* MainVC.swift */,
+				478C152621081D300022F118 /* Const.swift */,
+				478C152821086C5E0022F118 /* NewsModel.swift */,
+			);
+			path = VipcSwift;
+			sourceTree = "<group>";
+		};
+		478C150A21080E240022F118 /* VipcSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				478C150B21080E240022F118 /* VipcSwiftTests.swift */,
+				478C150D21080E250022F118 /* Info.plist */,
+			);
+			path = VipcSwiftTests;
+			sourceTree = "<group>";
+		};
+		478C151521080E250022F118 /* VipcSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478C151621080E250022F118 /* VipcSwiftUITests.swift */,
+				478C151821080E250022F118 /* Info.plist */,
+			);
+			path = VipcSwiftUITests;
+			sourceTree = "<group>";
+		};
+		7FAE1D90C9ED7F5DAF8F325F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB4F49147CAFC01C8204E1 /* Pods-VipcSwift.debug.xcconfig */,
+				FFC38094432C0C575C9AE54A /* Pods-VipcSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478C14F221080E240022F118 /* VipcSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C151B21080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwift" */;
+			buildPhases = (
+				B563D026880F556C7BDBF573 /* [CP] Check Pods Manifest.lock */,
+				478C14EF21080E240022F118 /* Sources */,
+				478C14F021080E240022F118 /* Frameworks */,
+				478C14F121080E240022F118 /* Resources */,
+				0447B1C3059A3DCFCA01F987 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VipcSwift;
+			productName = VipcSwift;
+			productReference = 478C14F321080E240022F118 /* VipcSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478C150621080E240022F118 /* VipcSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C151E21080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwiftTests" */;
+			buildPhases = (
+				478C150321080E240022F118 /* Sources */,
+				478C150421080E240022F118 /* Frameworks */,
+				478C150521080E240022F118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478C150921080E240022F118 /* PBXTargetDependency */,
+			);
+			name = VipcSwiftTests;
+			productName = VipcSwiftTests;
+			productReference = 478C150721080E240022F118 /* VipcSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478C151121080E250022F118 /* VipcSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478C152121080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwiftUITests" */;
+			buildPhases = (
+				478C150E21080E250022F118 /* Sources */,
+				478C150F21080E250022F118 /* Frameworks */,
+				478C151021080E250022F118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478C151421080E250022F118 /* PBXTargetDependency */,
+			);
+			name = VipcSwiftUITests;
+			productName = VipcSwiftUITests;
+			productReference = 478C151221080E250022F118 /* VipcSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478C14EB21080E240022F118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = vipc;
+				TargetAttributes = {
+					478C14F221080E240022F118 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					478C150621080E240022F118 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 478C14F221080E240022F118;
+					};
+					478C151121080E250022F118 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 478C14F221080E240022F118;
+					};
+				};
+			};
+			buildConfigurationList = 478C14EE21080E240022F118 /* Build configuration list for PBXProject "VipcSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478C14EA21080E240022F118;
+			productRefGroup = 478C14F421080E240022F118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478C14F221080E240022F118 /* VipcSwift */,
+				478C150621080E240022F118 /* VipcSwiftTests */,
+				478C151121080E250022F118 /* VipcSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478C14F121080E240022F118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C150121080E240022F118 /* LaunchScreen.storyboard in Resources */,
+				478C14FE21080E240022F118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C150521080E240022F118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C151021080E250022F118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0447B1C3059A3DCFCA01F987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VipcSwift/Pods-VipcSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipcSwift/Pods-VipcSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B563D026880F556C7BDBF573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VipcSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478C14EF21080E240022F118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C14F921080E240022F118 /* ViewController.swift in Sources */,
+				478C152721081D300022F118 /* Const.swift in Sources */,
+				478C1525210819140022F118 /* MainVC.swift in Sources */,
+				478C14F721080E240022F118 /* AppDelegate.swift in Sources */,
+				478C152921086C5E0022F118 /* NewsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C150321080E240022F118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C150C21080E240022F118 /* VipcSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478C150E21080E250022F118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478C151721080E250022F118 /* VipcSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478C150921080E240022F118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478C14F221080E240022F118 /* VipcSwift */;
+			targetProxy = 478C150821080E240022F118 /* PBXContainerItemProxy */;
+		};
+		478C151421080E250022F118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478C14F221080E240022F118 /* VipcSwift */;
+			targetProxy = 478C151321080E250022F118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478C14FF21080E240022F118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478C150021080E240022F118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478C151921080E250022F118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478C151A21080E250022F118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478C151C21080E250022F118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCB4F49147CAFC01C8204E1 /* Pods-VipcSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478C151D21080E250022F118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC38094432C0C575C9AE54A /* Pods-VipcSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		478C151F21080E250022F118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipcSwift.app/VipcSwift";
+			};
+			name = Debug;
+		};
+		478C152021080E250022F118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipcSwift.app/VipcSwift";
+			};
+			name = Release;
+		};
+		478C152221080E250022F118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipcSwift;
+			};
+			name = Debug;
+		};
+		478C152321080E250022F118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74U23E5C89;
+				INFOPLIST_FILE = VipcSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vipc.cn.VipcSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipcSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478C14EE21080E240022F118 /* Build configuration list for PBXProject "VipcSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C151921080E250022F118 /* Debug */,
+				478C151A21080E250022F118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C151B21080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C151C21080E250022F118 /* Debug */,
+				478C151D21080E250022F118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C151E21080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C151F21080E250022F118 /* Debug */,
+				478C152021080E250022F118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478C152121080E250022F118 /* Build configuration list for PBXNativeTarget "VipcSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478C152221080E250022F118 /* Debug */,
+				478C152321080E250022F118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478C14EB21080E240022F118 /* Project object */;
+}
